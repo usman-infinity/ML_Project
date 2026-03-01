@@ -1,4 +1,6 @@
 import os
+os.environ['CATBOOST_NO_WIDGETS'] = '1'
+import os
 import sys
 from dataclasses import dataclass
 
