@@ -17,7 +17,3 @@ logging.basicConfig(
     level=logging.INFO,
 )
 
-# 4️⃣ Test log
-if __name__ == "__main__":
-    logging.info("Logging has started")
-    print(f"Log file created at: {LOG_FILE_PATH}")
